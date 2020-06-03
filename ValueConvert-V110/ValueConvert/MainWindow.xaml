@@ -1,0 +1,38 @@
+﻿<Window x:Class="ValueConvert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValueConvert"
+        mc:Ignorable="d"
+        Title="进制转换小助手-V1.10" Height="350" Width="512.733">
+    <Grid Margin="0,0,-6.6,-0.2" HorizontalAlignment="Left" Width="513">
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" Margin="17,56,0,0" TextWrapping="Wrap" Text="16进制" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" Margin="17,106,0,0" TextWrapping="Wrap" Text="10进制" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" Margin="22,156,0,0" TextWrapping="Wrap" Text="2进制" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" Margin="111,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Text="请输入一种进制的数据"/>
+        <TextBox x:Name="textBox_Hex" HorizontalAlignment="Left" Height="23" Margin="99,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" FontSize="20" TextAlignment="Center" TextChanged="textBox_Hex_TextChanged"/>
+        <TextBox x:Name="textBox_Dec" HorizontalAlignment="Left" Height="23" Margin="99,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" FontSize="20" TextAlignment="Center" TextChanged="textBox_Dec_TextChanged"/>
+        <TextBox x:Name="textBox_Bin" HorizontalAlignment="Left" Height="23" Margin="100,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" FontSize="20" TextAlignment="Right" TextChanged="textBox_Bin_TextChanged"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="473,168,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="15" Width="7"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="460,168,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Height="15" Width="7"/>
+        <CheckBox x:Name="checkBox_0" Content="从0开始" HorizontalAlignment="Left" Margin="17,191,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox_1" Content="从1开始" HorizontalAlignment="Left" Margin="17,212,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_Reset" Content="重置" HorizontalAlignment="Left" Margin="201,249,0,0" VerticalAlignment="Top" Width="137" Height="42" FontSize="20" Click="btn_Reset_Click" />
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="438,168,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="413,168,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Height="15" Width="7"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="389,168,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="368,168,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" Height="15" Width="7"/>
+        <TextBlock x:Name="textBlock_Copy10" HorizontalAlignment="Left" Margin="340,168,0,0" TextWrapping="Wrap" Text="11" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy12" HorizontalAlignment="Left" Margin="315,168,0,0" TextWrapping="Wrap" Text="13" VerticalAlignment="Top" Height="15" Width="15"/>
+        <TextBlock x:Name="textBlock_Copy14" HorizontalAlignment="Left" Margin="292,168,0,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="269,168,0,0" TextWrapping="Wrap" Text="17" VerticalAlignment="Top" Height="15" Width="15"/>
+        <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Left" Margin="245,168,0,0" TextWrapping="Wrap" Text="19" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy11" HorizontalAlignment="Left" Margin="223,168,0,0" TextWrapping="Wrap" Text="21" VerticalAlignment="Top" Height="15" Width="15"/>
+        <TextBlock x:Name="textBlock_Copy13" HorizontalAlignment="Left" Margin="199,168,0,0" TextWrapping="Wrap" Text="23" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy15" HorizontalAlignment="Left" Margin="176,168,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Height="15" Width="15"/>
+        <TextBlock x:Name="textBlock_Copy16" HorizontalAlignment="Left" Margin="153,168,0,0" TextWrapping="Wrap" Text="27" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy17" HorizontalAlignment="Left" Margin="129,168,0,0" TextWrapping="Wrap" Text="29" VerticalAlignment="Top" Height="15" Width="15"/>
+        <TextBlock x:Name="textBlock_Copy18" HorizontalAlignment="Left" Margin="106,168,0,0" TextWrapping="Wrap" Text="31" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\bin\Debug\ValueConvert.exe.config
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\bin\Debug\ValueConvert.exe
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\bin\Debug\ValueConvert.pdb
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.csprojResolveAssemblyReference.cache
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\MainWindow.g.cs
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\App.g.cs
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert_MarkupCompile.cache
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert_MarkupCompile.lref
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\MainWindow.baml
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.g.resources
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.Properties.Resources.resources
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.csproj.GenerateResource.Cache
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.exe
+c:\users\xmgh\documents\visual studio 2015\Projects\ValueConvert\ValueConvert\obj\Debug\ValueConvert.pdb
